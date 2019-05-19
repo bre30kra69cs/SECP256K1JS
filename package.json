@@ -1,0 +1,33 @@
+{
+  "name": "secp256k1secp256k1",
+  "version": "1.0.0",
+  "description": "Its ECDSA secp256k1 simple implementation.",
+  "main": "index.js",
+  "scripts": {
+    "babel": "npx babel src --out-dir dist"
+  },
+  "keywords": [
+    "ecdsa",
+    "ECDSA",
+    "secp256k1",
+    "bitcoin",
+    "crypto",
+    "eliptic",
+    "curve"
+  ],
+  "author": "Andrey Krasovsky",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0"
+  },
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "hmac512hmac512": "^3.2.6",
+    "lodash": "^4.17.11",
+    "ramda": "^0.25.0",
+    "sha512sha512": "^4.5.3"
+  }
+}
